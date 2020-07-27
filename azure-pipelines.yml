@@ -14,7 +14,7 @@ steps:
   inputs:
     targetType: 'inline'
     script: |
-      sudo apt install python-pip3
+      sudo apt install python3-pip
       pip3 install requests
       pip3 install beautifulsoup4
   displayName: 'Pip install dependencies'
