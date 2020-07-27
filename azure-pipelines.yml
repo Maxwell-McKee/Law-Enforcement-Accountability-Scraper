@@ -10,10 +10,7 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-- task: Bash@3
-  inputs:
-    targetType: 'inline'
-    script: |
+- script: |
       sudo apt install python3-pip
       pip3 install requests
       pip3 install beautifulsoup4
